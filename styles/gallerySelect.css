@@ -60,7 +60,7 @@
     content: '';
     position: absolute;
     right: -20px;
-    background-image: url("../images/select.png");
+    background-image: url("../images/select.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 13px;
@@ -106,8 +106,9 @@
 }
 
 .headerList {
-    margin-top: 30px;
+    margin: 30px auto 0;
     display: flex;
+    justify-content: center;
     gap: 22px;
     padding-bottom: 20px;
 }

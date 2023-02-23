@@ -5,7 +5,7 @@
 
 .gallery_wrapper .header {
     background: linear-gradient(180deg, #1A3C5A 0%, #0E2D48 46.35%, #001B33 100%);
-    padding: 50px 0;
+    padding: 51px 0;
     text-align: center;
     color: white;
 }
@@ -15,7 +15,6 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
 }
 
 .scrolledContainer {
