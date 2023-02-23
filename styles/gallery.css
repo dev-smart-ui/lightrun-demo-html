@@ -103,6 +103,8 @@
     border-radius: 20px;
     overflow: hidden;
     transition: 0.3s;
+    width: 284px;
+    height: 196px;
 }
 
 .headerList {
