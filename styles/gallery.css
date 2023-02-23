@@ -1,7 +1,6 @@
 .gallery_wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(180px, auto) 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery_wrapper .header {
@@ -93,10 +92,10 @@
 }
 
 .imagesContent ul {
-    display: grid;
-    grid-gap: 22px;
-    grid-template-columns: repeat(auto-fill, 284px);
-    grid-template-rows: repeat(auto-fill, 196px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
 }
 
 .imagesContent ul li {
