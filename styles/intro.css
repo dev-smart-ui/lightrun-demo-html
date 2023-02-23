@@ -22,7 +22,10 @@
     background-blend-mode: screen;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.intro_layout_content .imgWrapper img {
+  margin-left: 68px;
 }
 
 .intro_layout_content .contentWrapper {
