@@ -15,12 +15,12 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
 }
 
 .scrolledContainer {
     width: 100%;
     overflow-x: auto;
+    display: flex;
 }
 
 
@@ -84,9 +84,9 @@
     text-align: center;
 }
 
-.imagesContent div {
+.imagesContent .selectMoreHint {
     margin-bottom: 28px;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.3;
     color: #1B1A19;;
 }
