@@ -1,0 +1,70 @@
+.instructions_wrapper {
+    height: 100vh;
+    background-color: #F3F6FD;
+    color: #1B1A19;
+}
+
+.instructions_wrapper .container {
+    max-width: 1480px;
+    padding: 112px 20px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.instructions_wrapper .container .title {
+    font-family: Cairo;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.15;
+    background: linear-gradient(101.63deg, #28A1C0 8.53%, #16489C 68.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    max-width: 440px;
+}
+
+.instructions_wrapper .container .wrapper {
+    font-size: 18px;
+    line-height: 1.44;
+    margin-top: 12px;
+    display: grid;
+    width: 100%;
+    column-count: 1;
+}
+
+.wrapper .content .extraSpacing {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sublist {
+    padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        height: calc(100% - 120px);
+        overflow-y: auto;
+        column-count: 2;
+    }
+
+    .content {
+        padding: 30px 20px 30px 0;
+        column-count: 2;
+        column-gap: 110px;
+        position: relative;
+    }
+
+    .content::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 49%;
+        border-left: 1px dashed black;
+    }
+}

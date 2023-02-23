@@ -1,0 +1,102 @@
+.home_layout{
+    height: 100vh;
+    background: linear-gradient(71.93deg, #001B33 26.34%, #004887 56.72%, #273B49 94.79%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.home_layout .home_layout_content {
+    padding: 0 20px;
+    text-align: center;
+    max-width: 926px;
+}
+
+.home_layout .home_layout_content h1 {
+    font-family: "Cairo";
+    font-size: 46px;
+    margin-top: 12px;
+    line-height: 1.05;
+}
+
+.home_layout .home_layout_content .pWrapper {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 1.45;
+    color: #E8EEF6;
+}
+
+.home_layout_content .enterName {
+    font-size: 14px;
+    line-height: 1.44;
+    max-width: 350px;
+    margin: 85px auto 0;
+    color: #E8EEF6;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 47px;
+}
+
+input, .linkButton {
+    background-color: transparent;
+    border-radius: 60px;
+    height: 60px;
+    padding: 14px 28px;
+    font-size: 18px;
+    width: 100%;
+}
+
+input {
+    color: white;
+    border: 2px solid #4DC7F9;
+}
+
+.linkButton {
+    background: linear-gradient(108.08deg, #4DC7F9 6.66%, #4DC7F9 6.67%, #75E0E8 49.26%, #30CFE8 94.59%, #30CFE8 94.6%);
+    border: 0;
+    min-width: 50px;
+    font-family: Cairo;
+    color: #2A3C62;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .home_layout_content h1 {
+        font-size: 80px;
+    }
+
+    .pWrapper {
+        font-size: 22px;
+    }
+
+    .enterName {
+        font-size: 18px;
+    }
+
+    .inputWrapper {
+        flex-direction: row;
+    }
+
+    input {
+        max-width: 400px;
+    }
+
+    .linkButton {
+        max-width: 178px;
+    }
+}

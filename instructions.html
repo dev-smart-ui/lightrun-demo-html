@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/instructions.css"/>
+    <title>Instructions</title>
+</head>
+<body>
+<div class="instructions_wrapper">
+    <div class="container">
+        <h1 class="title">Lightrun Demo App Challenges</h1>
+        <div class="wrapper">
+            <div class="content">
+                <p>
+                    Try to solve the following questions by using Lightrun to observe
+                    the behavior of the remotely running application.
+                </p>
+                <p class="paragraphSpace">
+                    From #4 on, as you solve the challenges, send your solution to{" "}
+                    <strong>moshes@lightrun.com</strong> - let's see who gets there
+                    first
+                </p>
+                <ol class="extraSpacing">
+                    <li>
+                        <p>
+                            <strong>Let's get set up:</strong>
+                        </p>
+                        <ul class="subList">
+                            <li>
+                                First download the
+                                <a href="#" class="underlinesLink">application's source code</a>
+                                and open it in your IDE.
+                            </li>
+                            <li>
+                                There is no need to build the code - you won't be running it locally! This code is
+                                already running remotely and
+                                waiting for you to observe it using Lightrun.
+                            </li>
+                            <li>
+                                In the same IDE, install (if you haven't yet) and log in to the Lightrun plugin.
+                            </li>
+                            <li>
+                                In the browser, log in to <a href="#" class="underlinesLink">the demo</a> and click an
+                                item to like it; click again to unlike.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Use Lightrun to create a dynamic log</strong> to
+                            output the user's name each time a user likes an item.
+                        </p>
+                        <p class="coloredText">
+                            Include your own name at the beginning of the log message.
+                        </p>
+                        <div class="notesContainer">
+                            <img src="./images/note.png" alt="note"/>
+                            <div>
+                                <strong>NOTE:</strong> You will need to switch to the Lightrun Console to view
+                                incoming log messages. There may be a few second delay before
+                                the logs you're expecting begin showing up.
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>The log message</strong> you created in the previous
+                        step so that it only triggers when you like an item.
+                    </li>
+                    <li>
+                        Each of the items has a name in the item_name_map. Each name starts with a different letter of
+                        the alphabet, A through Z. <br/> <strong>Use a snapshot to figure out which two letters are
+                        unused.</strong>
+                        <div class="notesContainer">
+                            <img src="./images/note.png" alt="note"/>
+                            <div>
+                                <strong>NOTE:</strong> You will need to switch to the Lightrun Console to view
+                                incoming log messages. There may be a few second delay before
+                                the logs you're expecting begin showing up.
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        One or more users are unable to like items
+                        from the display. <strong>What's preventing those users from liking items?</strong>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>There is also a contest going on!</strong>
+                        </p>
+                        <ul class="subList">
+                            <li>
+                                The system will select as "winner" the first user who has X or
+                                more items liked, one of which is item Y.
+                            </li>
+                            <li>
+                                The contest is run by <a href="#" class="underlinesLink">a separate script</a> which
+                                interacts with
+                                the server.
+                                <mark>Download the script,</mark>
+                                open it in your IDE, and find
+                                the conditions (X and Y) necessary to win. Can you be first to
+                                get the "you've won" banner?
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        It's actually possible to cheat and win the
+                        contest, even if it's already been won.
+                        <strong>Can you get your browser to show a win?</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
