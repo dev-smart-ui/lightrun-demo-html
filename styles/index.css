@@ -2,7 +2,7 @@
     height: 100vh;
     background: linear-gradient(71.93deg, #001B33 26.34%, #004887 56.72%, #273B49 94.79%);
     display: flex;
-    padding-top: 15%;
+    align-items: center;
     justify-content: center;
     color: #ffffff;
 }
@@ -76,9 +76,6 @@ input {
 }
 
 @media (min-width: 768px) {
-    .home_layout {
-        padding-top: 218px;
-    }
     .home_layout .home_layout_content h1 {
         font-size: 80px;
     }

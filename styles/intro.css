@@ -2,7 +2,7 @@
     height: 100vh;
     background: linear-gradient(180deg, #1A3C5A 0%, #0E2D48 46.35%, #001B33 100%);
     display: flex;
-    padding-top: 15%;
+    align-items: center;
     justify-content: center;
     color: white;
 }
@@ -25,7 +25,7 @@
 }
 
 .intro_layout_content .imgWrapper img {
-  margin-left: 68px;
+    margin-left: 68px;
 }
 
 .intro_layout_content .contentWrapper {
@@ -56,10 +56,4 @@
     position: absolute;
     bottom: -1px;
     left: 0;
-}
-
-@media (min-width: 768px) {
-    .intro_layout {
-        padding-top: 250px;
-    }
 }
