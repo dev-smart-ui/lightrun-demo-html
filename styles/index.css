@@ -71,20 +71,20 @@ input {
     justify-content: center;
 }
 
-button:hover {
+.linkButton:hover {
     opacity: 0.8;
 }
 
 @media (min-width: 768px) {
-    .home_layout_content h1 {
+    .home_layout .home_layout_content h1 {
         font-size: 80px;
     }
 
-    .pWrapper {
+    .home_layout .home_layout_content .pWrapper {
         font-size: 22px;
     }
 
-    .enterName {
+    .home_layout_content .enterName {
         font-size: 18px;
     }
 
