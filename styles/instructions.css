@@ -1,14 +1,13 @@
 .instructions_wrapper {
-    height: 100vh;
     background-color: #F3F6FD;
     color: #1B1A19;
+    min-height: 100vh;
 }
 
 .instructions_wrapper .container {
     max-width: 1480px;
     padding: 112px 20px;
     margin: 0 auto;
-    height: 100%;
 }
 
 .instructions_wrapper .container .title {
@@ -27,17 +26,27 @@
     font-size: 18px;
     line-height: 1.44;
     margin-top: 12px;
-    display: grid;
     width: 100%;
-    column-count: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
-.wrapper .content .extraSpacing {
-    margin-top: 30px;
+.column {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.wrapper .column .extraSpacing {
     display: flex;
     flex-direction: column;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+.firstRow {
+    margin-top: 30px;
 }
 
 .sublist {
@@ -45,26 +54,21 @@
 }
 
 @media (min-width: 768px) {
-    .wrapper {
-        height: calc(100% - 120px);
-        overflow-y: auto;
-        column-count: 2;
+    .column {
+        width: calc(50% - 54px);
     }
 
-    .content {
-        padding: 30px 20px 30px 0;
-        column-count: 2;
-        column-gap: 110px;
+    .wrapper {
         position: relative;
     }
 
-    .content::after {
+    .wrapper::after {
         content: '';
         width: 1px;
         height: 100%;
         position: absolute;
         top: 0;
-        left: 49%;
+        left: 50%;
         border-left: 1px dashed black;
     }
 }
