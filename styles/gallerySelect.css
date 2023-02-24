@@ -8,6 +8,8 @@
     padding: 50px 0;
     text-align: center;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .gallery_wrapper .header .containerGallery {
